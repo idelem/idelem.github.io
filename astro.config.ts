@@ -26,7 +26,7 @@ const imageConfig = imageHostURL
   : {}
 
 export default defineConfig({
-  site,
+  site: 'https://idelem.github.io',
   base,
   trailingSlash: 'always', // Not recommended to change
   prefetch: {
